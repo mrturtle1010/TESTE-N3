@@ -1,0 +1,142 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ REQUISITOS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Niveis de descrição dos Requisitos:
+
+ -> Requisitos de Usuário: Expressos em linguagem natural e complementados por diagramas, detalhando os serviços que o
+sistema deve ferecer aos usuários sob as quais deve operar. (Alto nivel, linguagem simples e direta)
+
+ -> Requisitos de Sistema: Descrição mais aprofundada das funções, serviços e limitações operacionais do sistema de
+software. O documento de requisitos do sistema, também chamado de especificação funcional, precisa especificar de forma
+precisa o que será implementado. (Especificação mais formal, mais próximos do sistema, utilizado para programação)
+
+ -> Requisitos Funcionais: Descrições dos serviços que o sistema deve fornecer, como ele deve responder a entradas especí-
+ficas, e seu comportamento em certas situações. Em alguns casos, podem também incluir o que o sistema não deve fazer.
+(Inserir aluno, Excluir aluno, Algo executável ao sistema)
+
+ . Delineiam as operações básicas do sistema;
+ . Clareza na definição de requisitos;
+ . Especificação clara e consistente;
+ . Completude
+
+ - O sistema deve permitir que os usuários se autentiquem utilizando um nome de usuário e senha. Após a autenticação bem-
+sucedida, os usuários devem ter acesso ás funcionalidades apropriadas com base em seu nível de permissão.
+
+ - O sistema deve fornecer a capacidade de gerar relatórios de vendas mensais que incluam total de vendas, número de pedi-
+dos e detalhes de itens mais  vendidos. Os relatórios devem ser exportáveis em formatos como PDF e Excel.
+
+
+ -> Requisitos Não Funcionais: Restrições aos serviços ou funcionalidades fornecidas pelo sistema. Eles abrangem limitações
+de tempo, restrições no processo de desenvolvimentos e exigências decorrente de normas.
+(Qualidade do sistema, Iterface, Velocidade de Processamento, Segurança)
+
+
+ . Características emergentes do sistema, tais como confibilidade, tempo de resposta e eficiencia no uso de recursos
+ . Geralmente não são frequentemente estabelecidos pelos usuários.
+ . Requisistos não funcionais muitas vezes entram em conflito ou interagem com outros requisitos, sejam eles funcionais ou
+não funcionais.
+
+ - Frequentemente impactam a arquietura global do sistema, em vez de apenas componentes isolados. 
+
+ - Um único requisito não funcional, como um requisito de segurança, pode originar vários requisitos funcionais relaciona-
+dos que definam o serviços necessários no novo sistema. Podem também impor restrições sobre os requisitos existentes.
+
+             MÉTRICAS PARA ESPECIFICAR REQUISITOS NÃO FUNCIONAIS
+
+ -> Velocidade
+(Tempo de atualização de tela)
+
+ -> Tamanho
+(Megabytes)
+
+ -> Facilidade de Uso
+(Tempo de treinamento)
+
+ -> Confiabilidade
+(probabilidade de indisponibilidade)
+
+ -> Robustez
+(Percentual de eventos que causam falhas)
+
+ -> Portabilidade
+(Número de sistemas-alvo)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ENGENHARIA DE REQUISITOS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ A engenharia de requisitos é nada mais do que um ciclo de fases onde a gente vai passando durante o processo.
+
+ -> Elicitação de Requisitos: Descoberta de Requisitos, Classificação e Organização de Requistos, Priorização e negociação
+de Requisitos e Especificação de Requisitos.
+
+ -> Notações para escrever Requisitos: Sentenças em linguagem natural, Linguagem natural estruturada, Notações gráficas e
+Especificações matemáticas.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+						E X E R C Í C I O 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Para cada requisito abaixo, classifique-o como "Funcional" ou "Não Funcional", justificando brevemente sua escolha.
+
+ 1. O Sistema deve permitir que os usuários pesquisem livros por título, autor ou ISBN.
+ - Funcional, pois esse tipo de pesquisa é uma funcionalidade, um comando específico.
+
+ 2. O sistema deve garantir a privacidade dos dados dos usuários, em conformidade com as normas de proteção de dados.
+ - Não Funcional, pois é algo que está ligado á qualidade do sistema, á segurança do usuário.
+
+ 3. O tempo de resposta para uma pesquisa de livro no sistema não deve exceder dois segundos
+ - Não Funcional, pois o tempo de respostá é algo que se refere á qualidade do sistema.
+
+ 4. O sistema deve permitir que os bibliotecários adicionem, removam ou atualizem informações de livros no banco de dados.
+ - Funcional, a manipulaçao de "entrada e saída" por assim dizer, é algo baseado em funcionalidade.
+
+ 5. O sistema deve ser acessível via navegadores web mais populares, como Chrome, Firefox e Safari
+ - Não Funcional, pois se refere à portabilidade, sendo esse um dos requisitos de qualidade do produto.
+
+ 6. O sistema deve enviar uma notificação por e-mail aos usuários quando um livro reservado estiver disponível
+ - Funcional, definido por uma programação, uma ação executável, um comportamento específico..
+
+ 7. O sistema deve manter um registro de todas as transações de emprestimo e devolução de livros.
+ - Funcional, já que esse registro é nada mais do que um relatório, por exemplo.
+
+ 8. O sistema deve ser capaz de gerar relatórios mensais de atividade da biblioteca, incluindo empréstimos, devoluções e 
+reservas.
+ - Funcional, pois segue o mesmo padrão de relatórios.
+
+ 9. O sistema deve ser capaz de suportar até 1000 usuários simultâenos.
+ - Não Funcional,  pois está ligado á capacidade de armazenamento de dados (escalabilidade)
+
+ 10. O design da interface do sistema deve ser intuitivo e amigável para todos os tipos de usuários.
+ - Não Funcional, pois está ligado ao conforto e qualidade dos usuários. (design e interface)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ VALIDAÇÃO DE REQUISITOS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+A validação de requisitos é crucial no procsso de desenvolvimento de sistemas, consistindo em verificar se os requisitos
+realmente correspondem ao que o cliente deseja. Durante a validação, é essencial realizar várias conferências nos 
+requisitos, incluindo:
+
+ . Conferência de validade -> Verifica se os requisitod atendem às necessidades reais dos usuários, considerando possíveis
+mudanças nas circunstâncias desde a elicitação inicial.
+
+ . Conferência de Consistência -> Assegura que não existam conflitos e contradições entre o requisitos documentados.
+
+ . Conferência de Completude -> Confirma que todos os requisitos necessários, abrangendo funções e restrições, estão
+incluídos no documento.
+
+ . Conferência de Realismo -> Avalia se os requisitos são tecnicamente viáveis dentro do orçamento e do cronograma
+estipulados para o projeto.
+
+ . Verificabilidade -> Para diminuir o potencial de conflito entre o cliente e o desenvolvedor, é crucial que os requisitos
+do sistema sejam formulados de maneira verificável. Isso implica na capacidade de elaborar testes específicos que comprovem
+que o sistema finalizado atende a cada um dos requisitos definidos.
+
+Existem várias técnicas de validação de requisitos que podem ser empregadas individualmente ou em combinação, que são:
+
+ . Revisões de Requisitos -> Neste método, uma equipe de revisores analisa os requisitos de forma sistemática para identi-
+ficar erros e inconsistências.
+
+ . Prototipação -> Consiste no desenvolvimento de um modelo funcional do sistema (protótipo) que são utilizados para
+validação de expectativas dos clientes/usuários.
+
+ . Geração de Casos de Teste -> Os requisitos devem ser testáveis. Criar testes durante a validação pode expor falhas nos
+requisitos. Desenvolver testes com base nos requisitos de usuário antes da programação é uma prática do desenvolvimento
+orientado a testes.
+

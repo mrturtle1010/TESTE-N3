@@ -1,0 +1,86 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ CONTROLE DE VERSÕES ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+          PLANEJAMENTO DE GERENCIAMENTO DE CONFIGURAÇÃO
+
+ -> Definir o que será gerenciado e o esquema que será usado para identificar as entidades;
+
+ -> Estabelecer o responsável;
+
+ -> Estabelecer políticas de gerenciamento de configuração;
+
+ -> Especificar ferramentas;
+
+ -> Descrever a estrutura do banco de dados.
+
+          MITOS DO GCS
+
+ . A implementação da gestão de configuração de software implica mais trabalho e novos procedimentos.
+
+ . A gestão da configuração é uma responsabilidade exclusiva da administração do sistema.
+
+ . Agestão da configuração beneficia apenas os desenvolvedores.
+
+          GERENCIAMENTO DE CONFIGURAÇÃO
+
+ . REPOSITÓRIO -> Local centralizado para armazenar e gerenciar arquivos e recursos relacionados a um projeto de software;
+(onde ficam as versões, moficicações, etc.)
+
+ . BASELINES (LINHAS DE BASE) -> São pontos de referência estáveis e identificáveis em um projeto de software, geralmente
+versões específicas que servem como padrões para comparação e avaliação do progresso;
+(é onde mostramos que aquele código está estável, um ponto base, de retorno.)
+
+ . BRANCHES -> Ramificações de um repositório que permitem o desenvolvimento paralelo de novos recursos ou correções, 
+mantendo a integridade do cógico principal.
+(possibilidade de trabalhar com códigos em paralelo, sem que um afete o desenvolvimento do outro.)
+
+          ITENS DE CONFIGURAÇÃO
+
+Elemento unitário ou grupo de elementos para efeito de controle de versão
+
+ . Código
+ . Documentação
+ . Diagramas, planos, ferramentas, casos de teste e etc.
+
+          IDENTIFICAÇÃO DOS ITENS DE CONFIGURAÇÃO
+
+ -> Manter a rastreabilidade;
+ -> Documentos que podem ser úteis dvem ser controlados pelo gerenciamento de configuração;
+ -> Esquemas de nomes hierarquizados.
+
+          GERENCIAMENTO DE VERSÕES E RELEASES
+
+ . Preocupa-se com a identificação e a rastreabilidade das versões de um sistema;
+
+ . Uma versão é uma instância de um sistema, que difere, de alguma maneira, de outras instâncias;
+
+ . Versões com pequenas diferenças algumas vezes são chamados de variantes.
+
+          FERRAMENTAS UTILIZADAS PARA GERENCIAMENTO DE VERSÕES
+
+ -> GIT
+ -> GITHUB (É uma plataforma de hospedagem de código fonte e arquivos como controle de versões, e usa o GIT como sistema
+de controle. Pode ser utilizado também como "portfólio" do programador)
+ -> REDMINE 
+
+          TERMINOLOGIAS RELACIONADAS AO CVS
+
+ -> Checkout: Denominação dada à primeira recuperação (ou download) de um módulo do sistema vindo do repositório do CVS.
+
+ -> Commit: Trata-se do envio do artefato modificado ao repositório do CVS.
+
+ -> Export (Exportação): Trata-se da recuperação (ou download) de um módulo inteiro a partir de um repositório, sem os 
+arquivos administrativos CVS. Módulos exportados não ficam sob controle do CVS.
+
+ -> Import: Esse termo identifica a criação de um módulo completo no âmbito de um repositório CVS, feita por meio de um
+upload de uma estrutura de diretórios.
+
+ -> Module (ou Módulo): É a representação de uma hierarquia de diretórios. Um projeto de determinado software efetiva-se
+como um módulo dentro do repositório.
+
+ -> Release: Este termo equivale a um "lançamento". Um número de release identifica a versão de um produto completo ou
+inteiro.
+
+ -> Merge: Refere-se à fusão  das diversas modificações feitas por diferentes usuários na cópia local de um mesmo arquivo.
+Sempre que alguém altera o código, é necessário realizar uma atualização antes da aplicação da operação de commit, a fim 
+de que seja feita a fusão das mudanças.
+
