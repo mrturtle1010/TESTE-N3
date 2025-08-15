@@ -1,0 +1,116 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ENGENHARIA DE SOFTWARE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Segundo Pressman, a engenharia de software é um processo que inclui uma série de métodos e ferramentas, para que os profis-
+sionais possam criar softwares de excelente qualidade e fácil manutenção. Compreender essa engenharia é crucial para
+implementar práticas que atendam às necessidades das organizações/empresas que os profissionais de TI trabalham.
+
+ENGENHARIA -> Se refere ao design e produção de um artefato (SOFTWARE), onde requisitos e especificações são vitais. 
+Diferente de artefatos fisicos, os softwares são ferramentas que NÃO seguem os mesmos processos e padrões de
+um produto físico. Este campo envolve desafios e estruturas únicas, precisando de soluções específicas não convencionais.
+
+SOFTWARE -> . Instruções executáveis que realizam funções específicas.
+            . Estruturas de dados que permitem a manipulação de informações pelos programas.
+            . Documentação relacionada ao sistema.
+
+Todos os componentes citados acima são o que formam a base da Engenharia de Software.
+
+Segundo a IEEE Comuputer Society, a engenharia de software é a prática de aplicar abordagens sistemicas, disciplinadas e 
+quantificáveis para o desenvolvimento, a operação e a manutenção de um software.
+
+Os principios, escritos pelo IEEE em uma publicação notável, o SWEBOK (Software Engineering Body of Knowlgedge), são 
+fundamentais para estudar e estruturar os preocessos, também para padronizar as soluções dentro deste campo da computação.
+
+Segundo o IEEE, "organização hierárquica" é um principio crucial, onde sugere a organização de problemas e/ou soluções
+em uma hierarquia, detalhado progressivamente em cada nível de sua estrutura.
+
+"Formalidade" enfatiza uma abordagem rigorosa e segue um padrão na resolução dos problemas.
+
+"Completeza" ressalta a importâcia de abordar todos os elementos do problema e garantir que a solução proposta os contemple
+integralmente.
+
+"Dividir para conquistar" orienta a divisão de problemas complexos em partes menores, podendo assim ser resolvido de forma
+mais prática. 
+
+"Ocultação" complementa o princípio citado acima, defendendo que cada parte desse problema deve ter acesso somente às
+inforações necessárias para sua operação.
+
+"Localização" sugere agrupar itens logicamente relacionados em um sistema.
+
+"Integridade Conceitual" propõe que os engenheiros de software sigam uma filosofia e arquitetura de projeto consistentes.
+
+"Abstração" se concentra em isolar aspectos essenciais de um problema específico. Esta abordagem enfatiza a habilidade 
+de se concentrar em solucionar um prolema específico.
+
+(O software é um produto que vai além do código executável; inclui também os dados processados e a documentação que os
+acompanha)
+
+. Mais programadores em um projeto não necessariamente acelera o desenvolvimento do mesmo; inclusive podem complicar a 
+comunicação e aumentar a complexidade do projeto.
+
+. Software não é facilmente modificável; mudanças tardias podem ser custosas e dificeis.
+
+. Software funcionando não significa que está pronto; testes, validação e documentação são essenciais antes da entrega.
+
+. Software requer manutenção constante; melhorias e atualizações são essencias para seu bom funcionamento.
+
+. Engenharia de software vai além da programação, pois inclui planejamento, análise, design, teste e manutenção.
+
+. Habilidades de programação não equivalem habilidades de gerenciamento; gerenciar um projeto exige habilidades especificas
+de gestão.
+
+Reconhecer e abordar os mitos acima citados é crucial para uma gestão eficaz de projetos e estabelecimento de espectativas
+específicas.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ MODELOS DE PROCESSOS DE DESENVOLVIMENTO DE SOFTWARE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+É um conjunto de práticas e prodecimentos que guiam as equipes de desenvolvimento na produção de softwares e serve como
+um roteiro que descreve todas etapas necessárias para levar um projeto de software desde a concepção até a entrega e
+manutenção, garantindo que todos os aspectos essenciais sejam abordados de forma sistemática e organizada.
+
+Oferecer uma estrutura que ajuda a organizar e controlar diversas atividades envolvidas no desenvolvimento do software, 
+como por exemplo: Análise de Requisitos, Design, Codificação, Testes e Manutenção.
+Este modelo busca assegurar a qualidade e eficiencia no processo de desenvolvimento, e claro, a satifação das necessidades
+do cliente.
+
+O modelo é adaptado para atender caracteristicas específicas de cada projeto considerando diversos fatores, e fornece um
+método para rastrear o progresso do projeto, identificar ricos e lidar com mudanças de forma eficaz.
+
+
+. Modelo Cascata -> Também conhecido como Ciclo de Vida Clássico, é um dos modelos mais antigos e tradicionais de processo
+de desenvolvimento de software, e se caracteriza pela abordagem linear, onde cada etapa deve ser concluida antes de se
+iniciar uma próxima etapa. Suas etapas são, respectivamente:
+
+. Comunicação
+. Planejamento
+. Modelagem
+. Construção
+. Entrega
+
+ (O Modelo Cascata é bastante eficaz para projetos com requisitos bem definidos e estáveis, porém menos flexivel para acomodar mudanças de requisitos que
+podem surgir durante o desenvolvimento, que o torna limitado.)
+
+
+. Modelo Espiral -> O Modelo Espiral é feito em ciclos. Esses ciclos são feitos por quatro passos fundamentais que são:
+
+. Definição de Objetivos
+. Análise e Resolução de Riscos
+. Desenvolvimento Efetivo
+. Planejamento da Próxima Inteação
+
+A cada ciclo, o software evolui, incorporando mais elementos e funcionalidades, ao mesmo tempo que são identificados e 
+geridos os riscos associados.
+
+Resumindo: Este modelo é uma abordagem versátil e orientada a riscos para o desenvolvimento do software, adequada para 
+projetos que envolvem uma certa incerteza e complexidade.
+
+
+. Modelo Incremental -> É um modelo onde cada incremeto é adicionado conforme outros incrementos são apresentados e
+recolhidos seus devidos feedbacks.
+Uma vantagem significativa deste modelo é a capacidade de ajustar o software a mudanças de requisitos ao longo do
+desenvolvimento e é particularmente útil em projetos onde não é possivel ou prático definir todos os requisitos de 
+antemão.
+Além disso, a entrega antecipada de uma versão funcional do software poder fornecer um retorno sobre o investimento (ROI)
+mais cedo, além de permitir uma verificação contínua da adequação do produto às necessidades dos usuários.
+Isso pode levar a uma detecção mais  rápida de problemas e a um software mais  confiável, porém requer uma boa e
+cuidadosa gestão para garantir que cada elemento se integre de forma coesa ao sistema como um todo, evitando problemas de
+compatibilidade ou inconsistências.
