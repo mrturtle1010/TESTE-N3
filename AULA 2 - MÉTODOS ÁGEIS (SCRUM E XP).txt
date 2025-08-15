@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ MÉTODOS ÁGEIS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 DIferentemente dos métodos tradicionais, que seguem um plano rigido e linear, os métodos ágeis permitem uma abordagem mais 
@@ -85,3 +86,92 @@ a equipe XP organiza de alguma das seguintes formas:
 Os testes de aceitação focam nas caracterisicas e funcionalidades do sistema completo que são avaliáveis pelo próprio
 cliente. São também derivados das histórias de usuário implementadas em cada versão do software.
 
+=======
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ MÉTODOS ÁGEIS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+DIferentemente dos métodos tradicionais, que seguem um plano rigido e linear, os métodos ágeis permitem uma abordagem mais 
+interativa e incremental, focada na entrega de produtos de alta qualidade que atendam as necessidades em constante evolução
+dos clientes.
+
+SCRUM -> Se destaca como um dos mais populares frameworks utiizados por equipes de desenvolvimento de sofwtare no mundo
+todo.
+é notável por sua estrutura que organiza o trabalho em ciclos curtos e por tarefas, onde se aponta as tarefas que estão
+em andamento, as que estão por fazer e as que ja foram entregues, por exemplo, podendo também ser adicionados outros
+"tipos" de tarefa.
+Os ciclos são denominados "SPRINTS".
+O SCRUM é caracterizado por papéis bem definidos, como o "Scrum Master", "Product Owner (Dono do Produto), e cerimônias
+específicas.
+
+Extreme Programming (XP) -> É conhecida por sua programação em pares, desenvolvimento voltado a testes, integração
+contínua e refatoração, garantindo qualidade do software e permitindo respostas rápidas das equipes referente as mudanças
+nos requisitos do cliente.
+
+O desenvolvimentoágiltraz vantagens significativas, mas não é universalmente adequado para todas as situações, projetos, 
+equipes, ou contextos, e não se opõe às práticas sólidas de engenharia de software, podendo ser integrado como uma
+abordagem ampla no trabalho.
+
+Um processo ágil debe evolui de maneira incremental, requerendo feedback constantw do cliente para assegurar que as
+adaptações sejam pertinentes.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SCRUM ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+. Product Backlog: É uma lista dinâmica que abrange todas as funcionalidades desejadas para o produto no método Scrum.
+
+. Sprint Backlog: É uma relação das tarefas que a equipe se compromete a realizar durante um sprint.
+
+. Sprint: É a fase do método Scrum em que ocorre a construção ativa do software, divididas em ciclos fixos.
+
+. Scrum Master: É um facilitador essencial dentro do projeto Scrum, atuando como um especialista no modelo e garantindo
+sua aplicação correta em todo o projeto.
+
+. Product Owner: É a figura central na definição do projeto, responsavel por identificar e priorizar os requisitos criticos
+que serão abordados nos sprints.
+
+. Scrum Team: É o grupo responsábel pelo desenvolvimento, normalmente formado de 6 a 10 membros.
+
+. Sprint Planning: Esta reunião marca o inicio de cada sprint, onde é definido o que será trabalhado na Sprint.
+
+. Daily Stand-Up: Reunião rápida de 15 minutos realizada todos os dias durante o Sprint, com o objetivo de compartilhar
+os progressos e dificuldades encontrados no dia anterior, para que se possa planejar para as atividades do dia.
+
+. Sprint Review: Esta reunião é uma demonstração do trabalho realizado. São apresentados incrementos de softwares
+desenvolvidos para que possam receber feedbacks e ser discutidos o que poderia ser melhorado ou adaptado.
+
+. Sprint Retrospective: Após a  Sprint Review e antes do próximo Sprint Planning, a equipe se reúne para discutir o que
+funcionou bem, o que poderia ser melhorado e como implementar essas melhorias no próximo Sprint.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Extreme Programming (XP) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+é uma metodologia que incorpora regras e práticas dentro de quatro áreas principais, sendo elas:
+
+ -> Planejamento
+(Histórias de usuário, valores, critérios de teste de aceitação, plano de iteração)
+
+ -> Projeto
+(Projeto simples, cartões CRC, soluções pontuais, protótipos)
+
+ -> Codificação
+(Programação em pares, teste de unidade, integração contínua)
+
+ -> Testes
+(teste de unidade, integrção contínua, teste de aceitação)
+
+              -> Versão <-
+     (incremente de software, velocidade
+          de projeto calculada)
+
+
+Uma vez alcançado um acordo básico sobre quais histórias serão desenvolvidas, data de entrega e outros aspectos do projeto,
+a equipe XP organiza de alguma das seguintes formas:
+
+ . Implementar todas imediatamente
+
+ . Priorizar e implementar primeiro as de maior valor
+
+ . Priorizar e implementar primeiro as de maior risco
+
+
+Os testes de aceitação focam nas caracterisicas e funcionalidades do sistema completo que são avaliáveis pelo próprio
+cliente. São também derivados das histórias de usuário implementadas em cada versão do software.
+
+>>>>>>> 5d3d795ea0df8048c13cb65b80a4f45ca949c8ad
